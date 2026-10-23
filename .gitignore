@@ -1,0 +1,20 @@
+# Build outputs and runtime state
+/core/minivmm
+/guests/*.bin
+/.vmctl/
+__pycache__/
+*.py[cod]
+
+# Local reports and experiment artifacts
+/experiments/
+*.pdf
+*.iso
+*.qcow2
+*.strace
+
+# Local agent configuration and credentials
+/.agents/
+/.codex/
+/.aws/
+.env
+.env.*
